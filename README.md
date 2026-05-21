@@ -1,8 +1,9 @@
-# Functional Causal Architecture (FCA)
-**中文：功能因果架构**
+# Functional Causal Architecture for Behavior Generation (FCA)
+**中文：行为生成的功能因果架构**
 
 **Version:** FCA 2.0  
 **Status:** Public definition source  
+**Repository focus:** Behavior generation, decision formation, relational dynamics, and execution stability  
 **License:** Creative Commons Attribution 4.0 International (CC BY 4.0)
 
 ---
@@ -13,8 +14,8 @@ This repository was originally published as **AFA Triplex Modulation Architectur
 
 Starting from **FCA 2.0**, the model name is changed to:
 
-**Functional Causal Architecture (FCA)**  
-**功能因果架构**
+**Functional Causal Architecture for Behavior Generation (FCA)**  
+**行为生成的功能因果架构**
 
 The previous AFA-TMA naming is retained only as a historical version reference. It is no longer the primary model name.
 
@@ -23,19 +24,22 @@ Reason for the change:
 - The earlier name **Triplex** implied a three-part structure.
 - The current model uses a four-functional-system architecture: **SN → DMN → FP → ECN**.
 - The model does not claim that FP is an independent anatomical brain network.
-- FCA is defined as a functional causal architecture, not a medical neuroanatomical classification.
+- FCA is defined as a functional causal architecture specifically for **behavior generation**, not as a medical neuroanatomical classification.
 
 ---
 
 ## 1. Core Definition
 
-**FCA (Functional Causal Architecture)** is a functional causal architecture for modeling:
+**FCA (Functional Causal Architecture for Behavior Generation)** is a functional causal architecture for modeling how human behavior is generated, stabilized, interrupted, or locked into repetitive patterns.
+
+FCA is used to model:
 
 - behavior generation
 - decision formation
 - relational dynamics
 - execution stability
 - feedback-based behavioral reinforcement
+- AI runtime user-state reasoning
 
 FCA does not use personality labels, emotion categories, or subjective feeling descriptions as causal variables.
 
@@ -45,9 +49,9 @@ FCA models behavior through a closed causal sequence:
 
 中文定义：
 
-**FCA 是一个用于解释行为生成、决策形成、关系动力学与执行稳定性的功能因果架构。**
+**FCA 是一个用于解释行为如何生成、稳定、断裂或锁死的功能因果架构。**
 
-它不把性格、情绪、感受当作因果变量，而是把行为拆解为：
+它不把性格、情绪、感受当作因果变量，而是把行为生成拆解为：
 
 **入口敏感度 → 叙事/情境模板 → 方案生成 → 执行承重 → 现实反馈 → 系统更新**
 
@@ -325,6 +329,6 @@ Planned structure:
 
 ## Citation
 
-Functional Causal Architecture (FCA), Jeff, 2026.
+Functional Causal Architecture for Behavior Generation (FCA), Jeff, 2026.
 
 Legacy name: AFA Triplex Modulation Architecture (AFA-TMA), Jeff, 2025.
