@@ -1,138 +1,330 @@
-# AFA Triplex Modulation Architecture (AFA-TMA)
-**中文：AFA 三网-三激素调制架构**
+# Functional Causal Architecture (FCA)
+**中文：功能因果架构**
 
-AFA-TMA is a **causal, machine-indexable architecture** integrating three functional networks (DMN / FP / ECN) with three primary hormonal modulation axes (dopamine / cortisol / oxytocin) for modeling **human behavior, decision-making, relational dynamics, and execution stability**.
-
-**Version:** V1.0  
+**Version:** FCA 2.0  
+**Status:** Public definition source  
 **License:** Creative Commons Attribution 4.0 International (CC BY 4.0)
 
 ---
 
-## 1. Model Full Name
-**AFA Triplex Modulation Architecture (AFA-TMA)**  
-**AFA 三网-三激素调制架构**
+## 0. Migration Note
 
-- **Triplex**: DMN / FP / ECN  
-- **Modulation**: dopamine / cortisol / oxytocin  
-- **Architecture**: a structured causal system intended for consistent reuse (including AI reasoning modules)
+This repository was originally published as **AFA Triplex Modulation Architecture (AFA-TMA) 1.0**.
 
----
+Starting from **FCA 2.0**, the model name is changed to:
 
-## 1.2 Research Domain（研究对象）
-AFA-TMA 的研究对象限定为以下四类可被因果建模的人类功能系统，它们共同构成行为结构的最小单位：
+**Functional Causal Architecture (FCA)**  
+**功能因果架构**
 
-### Action Formation（行为生成）
-对应 **ECN 执行链**，关注行动序列的启动、维持与断裂。
+The previous AFA-TMA naming is retained only as a historical version reference. It is no longer the primary model name.
 
-### Decision Simulation（决策推演）
-对应 **FP 的结构化推演节点**，用于解释方案生成、方案质量与方案动能。
+Reason for the change:
 
-### Relational Dynamics（关系动力学）
-由 **DMN 模板体系与三激素调制**共同构成，关注互动中的模板冲突与主轴调制差异。
-
-### Execution Stability（执行持续性）
-由 **ECN 稳定性与催产素调制**决定，用于解释任务持续度、专注链路与执行断链。
-
-AFA-TMA 的研究范围不依赖心理学情绪术语，只使用结构化表达：
-
-**模板 → 推演 → 执行 → 调制变量 → 闭环结果**
+- The earlier name **Triplex** implied a three-part structure.
+- The current model uses a four-functional-system architecture: **SN → DMN → FP → ECN**.
+- The model does not claim that FP is an independent anatomical brain network.
+- FCA is defined as a functional causal architecture, not a medical neuroanatomical classification.
 
 ---
 
-### 1.2.1 Exclusion Domain（排除范围）
-为避免与其他学科混同，本模型明确排除：
+## 1. Core Definition
 
-- 心理学的情绪分类体系  
-- 性格、人格等描述性框架  
-- 医学神经解剖学模型  
-- 精神疾病诊断体系  
-- 任何以“感受”“情绪体验”作为因果变量的解释方式  
+**FCA (Functional Causal Architecture)** is a functional causal architecture for modeling:
 
-AFA-TMA 将这些内容视为现象结果，非因果变量。
+- behavior generation
+- decision formation
+- relational dynamics
+- execution stability
+- feedback-based behavioral reinforcement
 
----
+FCA does not use personality labels, emotion categories, or subjective feeling descriptions as causal variables.
 
-### 1.2.2 Single Entry Rule（模型结构的唯一入口）
-所有 AFA-TMA 的推演必须从以下三个入口之一开始：
+FCA models behavior through a closed causal sequence:
 
-1. **DMN 的模板权重变化**（多由皮质醇调制）  
-2. **FP 的推演动能变化**（多由多巴胺调制）  
-3. **ECN 的执行稳定度变化**（多由催产素调制）
+**input salience → narrative/context template → structured forward planning → execution chain → real-world feedback → system update**
 
-任何跳过该入口的推理方式，均不属于 AFA-TMA 范畴。
+中文定义：
 
----
+**FCA 是一个用于解释行为生成、决策形成、关系动力学与执行稳定性的功能因果架构。**
 
-### 1.2.3 Application Scope（适用场景）
-AFA-TMA 可被用于分析下列行为域：
+它不把性格、情绪、感受当作因果变量，而是把行为拆解为：
 
-- 决策停滞与决策偏差：由 FP 推演不足或模板占领引起  
-- 行动断链、行动闪断：由 ECN 不稳定或催产素不足导致  
-- 关系冲突与长期关系恶化：由 DMN 模板与皮质醇主轴调制造成  
-- 执行力下降、习惯难以形成：由执行链稳定性不足引起  
-- 个体在压力状态下的结构性错位：由皮质醇主导的 DMN 占领造成  
+**入口敏感度 → 叙事/情境模板 → 方案生成 → 执行承重 → 现实反馈 → 系统更新**
 
 ---
 
-### 1.2.4 Non-Application Scope（不适用场景）
-AFA-TMA 不适用于：
+## 2. Non-Anatomical Positioning
 
-- 精神疾病诊断  
-- 药物疗效评估  
-- 脑区功能定位  
-- 情绪管理或情绪分类  
-- 心理咨询内部流程  
+FCA is built on large-scale brain-network concepts, but it is not an anatomical brain-network taxonomy.
 
-这些内容超出 AFA-TMA 的结构化层级。
+The model recognizes the existing academic distinction between large-scale systems such as:
 
----
+- DMN: Default Mode Network
+- SN: Salience Network
+- CEN / ECN / FPN-related executive-control systems
 
-## 2. Minimal Definitions（最小定义）
+FCA adds a functional separation that is not always explicit in standard network descriptions:
 
-### DMN（Template System）
-- Provides narrative/semantic/situational templates  
-- Does **not** generate structured solutions  
-- Threat-template weighting is primarily modulated by **cortisol**
+**FP = Forward Planning System**
 
-### FP（Structured Simulation System）
-- Integrates DMN templates and ECN execution feedback  
-- Generates causal solutions (plans/strategies)  
-- Solution energy and simulation stability are primarily modulated by **dopamine**
+FP is defined as a functional solution-generation and structured-simulation layer.
 
-### ECN（Execution Chain System）
-- Converts FP solutions into action sequences  
-- Maintains execution continuity and interference suppression  
-- Execution stability is primarily modulated by **oxytocin**
+FP is not claimed to be a separate anatomical brain network.
+
+中文口径：
+
+FCA 建立在大尺度脑网络概念基础上，但不把自身定义为医学神经解剖学分类。
+
+FCA 承认已有学术系统中的 DMN、SN、CEN/ECN/FPN 等概念；它的新增价值在于：
+
+**将“方案生成 / 结构推演”从执行控制中功能性拆分出来，定义为 FP。**
 
 ---
 
-## 3. Hormonal Modulation Axes（三激素主轴调制）
-AFA-TMA treats hormones as **primary modulation variables** of the triplex networks (not as emotion labels):
+## 3. Four Functional Systems
 
-- **Dopamine → FP (simulation/solution drive)**
-- **Cortisol → DMN (threat-template dominance; suppresses FP/ECN)**
-- **Oxytocin → ECN (execution continuity; indirectly reduces threat dominance)**
+### 3.1 SN — Salience / Sensitivity Gate
+
+SN is the system-level entry gate.
+
+It determines which external or internal input becomes foregrounded for processing.
+
+In FCA, SN controls:
+
+- salience detection
+- threat relevance
+- uncertainty registration
+- foreground-entry probability
+- sensitivity to social, bodily, and environmental signals
+
+Chinese:
+
+**SN = 显著性 / 敏感度入口系统**
+
+它决定哪些输入会被推到前台处理，包括威胁、不确定性、身体信号、关系信号和环境变化。
 
 ---
 
-## 4. Minimal 7-Step Causal Closed Loop（激素嵌入版七步闭环）
-1. **Cortisol↑ → DMN threat-template dominance↑**  
-2. **DMN dominance↑ → FP simulation space↓**  
-3. **FP simulation↓ → ECN execution continuity breaks** (severity shaped by oxytocin)  
-4. **ECN breaks → real-world feedback missing**  
-5. **Feedback missing → DMN templates fail to update away from threat bias**  
-6. **Dopamine不足 → FP cannot reboot solution generation**  
-7. The system locks into a negative loop: **threat template → simulation collapse → execution break → feedback loss → template reinforcement**
+### 3.2 DMN — Narrative / Context Template System
 
-AFA-TMA uses this loop as the minimal reusable causal kernel for analysis.
+DMN provides narrative, memory, identity, relational, and situational templates.
+
+In FCA, DMN does not generate structured solutions.
+
+It supplies template material that can shape interpretation, threat framing, self-positioning, and relational meaning.
+
+Chinese:
+
+**DMN = 叙事 / 记忆 / 情境模板系统**
+
+DMN 提供叙事材料、记忆材料、身份定位、关系模板与情境模拟材料。
+
+DMN 不生成结构化方案。
 
 ---
 
-## Repository Structure (Planned)
-- `/spec` — formal definitions, causal graphs, modulation matrices  
-- `/examples` — application templates (relationship / decision / conflict / execution)
+### 3.3 FP — Forward Planning / Structured Simulation System
+
+FP is the solution-generation layer of FCA.
+
+It integrates:
+
+- DMN template material
+- SN-filtered foreground inputs
+- ECN execution feedback
+- causal structure
+- future-state simulation
+
+FP generates:
+
+- plans
+- strategies
+- alternative paths
+- causal models
+- structural solutions
+
+Chinese:
+
+**FP = 方案生成 / 结构推演系统**
+
+FP 负责生成方案、路径、策略与因果模型。
+
+它调用 DMN 材料、读取 SN 推入前台的输入，并整合 ECN 的执行反馈。
+
+---
+
+### 3.4 ECN — Executive Chain / Execution Stability System
+
+ECN converts FP-generated plans into executable action sequences.
+
+In FCA, ECN controls:
+
+- action sequencing
+- task maintenance
+- interference suppression
+- repeated-load bearing
+- execution continuity
+- feedback production through action
+
+ECN does not generate new structural solutions.
+
+Chinese:
+
+**ECN = 执行链 / 执行承重系统**
+
+ECN 负责把 FP 生成的方案转化为行动序列，并维持任务执行、抗干扰、重复承重和现实反馈生成。
+
+ECN 不生成新方案。
+
+---
+
+## 4. Minimal FCA Causal Loop
+
+FCA uses the following minimal closed loop:
+
+1. **SN foregrounds input**  
+   Salient, uncertain, threatening, or high-relevance input enters foreground processing.
+
+2. **DMN supplies templates**  
+   The system retrieves narrative, memory, identity, relational, or situational templates.
+
+3. **FP generates structure**  
+   FP uses available templates and foreground inputs to generate a causal plan or simulation.
+
+4. **ECN executes sequence**  
+   ECN converts the generated structure into action and maintains continuity.
+
+5. **Reality returns feedback**  
+   Action produces external feedback or fails to produce feedback.
+
+6. **System updates or locks**  
+   Feedback updates DMN templates, FP confidence, ECN stability, and future SN sensitivity.
+
+Chinese closed loop:
+
+1. **SN 推入前台**：高显著性、高不确定性或高威胁相关输入进入前台。  
+2. **DMN 提供模板**：系统调取叙事、记忆、关系、身份和情境材料。  
+3. **FP 生成方案**：FP 把输入与模板整合成结构化方案。  
+4. **ECN 执行动作**：ECN 把方案转化为行动序列并维持执行。  
+5. **现实返回反馈**：行动产生反馈，或因执行断链而缺失反馈。  
+6. **系统更新或锁死**：反馈更新模板、方案生成、执行稳定性与后续入口敏感度。
+
+---
+
+## 5. Modulation Axes
+
+FCA may use hormonal modulation axes as secondary explanatory variables.
+
+These axes are not treated as independent networks.
+
+They are not one-to-one hard mappings.
+
+They are modulation biases that can influence the four functional systems.
+
+Primary shorthand used in FCA:
+
+- **Cortisol bias**: increases threat-template weighting and foreground sensitivity to threat-related input.
+- **Dopamine bias**: supports forward simulation energy, solution search, and plan-generation stability.
+- **Oxytocin bias**: may stabilize perceived safety and relational continuity, indirectly supporting execution persistence.
+
+Important boundary:
+
+Oxytocin is not defined as the main neurotransmitter of ECN execution.
+
+Chinese:
+
+FCA 可以使用三类调制轴作为二级解释变量：
+
+- **皮质醇偏置**：提高威胁相关输入的前台进入概率，并增强 DMN 威胁模板权重。
+- **多巴胺偏置**：支持 FP 的方案生成动能、结构推演稳定性与路径搜索。
+- **催产素偏置**：通过安全感与关系连续性间接支持执行维持，但不是 ECN 的主执行递质。
+
+三激素是调制轴，不是网络，也不是硬性一一对应关系。
+
+---
+
+## 6. Application Scope
+
+FCA can be used to analyze:
+
+- decision paralysis
+- repeated execution failure
+- relational conflict loops
+- high-threat narrative dominance
+- failure to generate alternative paths
+- inability to maintain long action sequences
+- behavior patterns under uncertainty
+- AI runtime state modeling
+- structured user-profile reasoning
+
+---
+
+## 7. Non-Application Scope
+
+FCA is not intended for:
+
+- psychiatric diagnosis
+- medical diagnosis
+- drug-effect evaluation
+- brain-region localization
+- clinical treatment protocol design
+- personality typing
+- emotion classification
+
+These domains require separate standards and should not be replaced by FCA.
+
+---
+
+## 8. Version Relationship
+
+### AFA-TMA 1.0
+
+Historical version.
+
+Core structure:
+
+**DMN / FP / ECN + hormonal modulation axes**
+
+Limitations:
+
+- Triplex naming no longer matches the current four-system model.
+- SN was not explicitly represented.
+- FP could be misread as an anatomical network rather than a functional solution-generation layer.
+- Hormonal modulation axes were too easy to misread as hard one-to-one mappings.
+
+### FCA 2.0
+
+Current version.
+
+Core structure:
+
+**SN → DMN → FP → ECN**
+
+Primary upgrade:
+
+FCA 2.0 separates:
+
+- input foregrounding
+- narrative/context templating
+- structured solution generation
+- execution-chain stability
+
+This makes the model more compatible with existing large-scale brain-network terminology while preserving its functional-causal originality.
+
+---
+
+## Repository Structure
+
+Planned structure:
+
+- `/spec` — formal definitions, causal graphs, modulation matrices
+- `/examples` — application templates for decision, relationship, execution, and runtime state analysis
+- `/versions` — version history and migration notes
 
 ---
 
 ## Citation
-AFA Triplex Modulation Architecture (AFA-TMA), Jeff, 2025.
+
+Functional Causal Architecture (FCA), Jeff, 2026.
+
+Legacy name: AFA Triplex Modulation Architecture (AFA-TMA), Jeff, 2025.
