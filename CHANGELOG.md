@@ -4,10 +4,12 @@
 
 ### Renamed
 
-- Official model name changed from **AFA Triplex Modulation Architecture (AFA-TMA)** to **Functional Causal Architecture (FCA)**.
-- Chinese name changed to **功能因果架构**.
+- Official model name changed from **AFA Triplex Modulation Architecture (AFA-TMA)** to **Functional Causal Architecture for Behavior Generation (FCA)**.
+- Chinese name changed to **行为生成的功能因果架构**.
+- Short Chinese reference: **功能因果架构**.
 - **AFA** is no longer used as the official model prefix.
 - **Triplex** is no longer used as the official structural descriptor.
+- The phrase **for Behavior Generation** is added to prevent FCA from being interpreted as a generic causal-architecture label.
 
 ### Structural Upgrade
 
@@ -32,6 +34,7 @@ Chinese:
 ### Added
 
 - Explicit **SN** layer as the salience / sensitivity entry gate.
+- Explicit **behavior-generation domain** as the model's primary scope.
 - Explicit boundary that **FP is not an anatomical brain network**.
 - Explicit separation between:
   - input foregrounding
@@ -50,6 +53,7 @@ Chinese:
 - ECN is restricted to execution sequencing and execution stability.
 - DMN is restricted to narrative, memory, identity, relational, and contextual template supply.
 - FP is restricted to forward planning, structured simulation, and solution generation.
+- FCA is no longer presented as a generic architecture; it is explicitly a behavior-generation model.
 
 ### Compatibility
 
@@ -58,7 +62,7 @@ AFA-TMA 1.0 remains a historical version reference only.
 The current official model is:
 
 ```text
-Functional Causal Architecture (FCA)
+Functional Causal Architecture for Behavior Generation (FCA)
 ```
 
 ---
@@ -79,3 +83,4 @@ Known limitations corrected in FCA 2.0:
 - Triplex naming no longer matched the expanded model.
 - FP could be misread as an anatomical network.
 - Hormonal modulation axes could be misread as hard one-to-one mappings.
+- The behavioral-generation domain was not explicit enough.
