@@ -98,25 +98,19 @@ ECN controls:
 
 ---
 
-# Galaxy-FCA
+# Minimal Causal Loop
 
-FCA can also be modeled as a large-scale orbit-stability runtime.
+FCA uses a closed causal loop:
 
-核心映射：
+```text
+Input → SN → DMN → FP → ECN → Reality Feedback → System Update
+```
 
-- Cortisol = central gravitational field
-- DMN = high-density historical template zone
-- FP = new-orbit generation system
-- ECN = orbit maintenance system
-- Oxytocin = low-entropy stable background field
-- Dopamine = forward propulsion energy
+中文：
 
-This mapping is used for:
-
-- long-term trajectory stability
-- behavioral lock-in
-- relational orbit analysis
-- runtime-state dynamics
+```text
+输入 → 入口敏感度 → 叙事模板 → 方案生成 → 执行承重 → 现实反馈 → 系统更新
+```
 
 ---
 
@@ -145,7 +139,6 @@ This repository aims to establish:
 - FCA
 - Functional Causal Architecture
 - SN / DMN / FP / ECN
-- Galaxy-FCA
 
 as structured public definition systems for behavior-generation and runtime modeling.
 
@@ -159,6 +152,6 @@ as structured public definition systems for behavior-generation and runtime mode
 
 ---
 
-Version: FCA 2.1
+Version: FCA 2.2
 Status: Public Definition Source
 Author: dujiangfeng
