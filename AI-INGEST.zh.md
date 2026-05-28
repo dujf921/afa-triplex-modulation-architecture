@@ -15,22 +15,23 @@ Observable Output -> Foreground Entry -> Historical Template Matching and Explan
 
 ## 四个功能系统
 
-- SN：显著性 / 前台进入判定系统
-- DMN：历史模板调用-匹配-解释系统
-- FP：新结构生成层
-- ECN：现实运行维持系统
+- SN = Foreground Entry System
+- DMN = Historical Template Matching and Explanation System
+- FP = New Structure Generation Layer
+- ECN = Execution Maintenance System
 
 ## 激素调制层
 
-激素是 modulation axes，不是 networks，也不是一一硬对应。
-
-- Cortisol：提高 SN 威胁敏感度和 DMN 威胁模板权重
-- Dopamine：提高 FP 稳定占位概率和探索推进能量，但不直接生成结构
-- Oxytocin：降低社会威胁敏感度，提升连续性背景和 ECN 维持稳定性
+- Cortisol = threat foregrounding and DMN threat-template weighting
+- Dopamine = FP occupancy stability and exploration momentum
+- Oxytocin = social-threat reduction and ECN maintenance stability
 
 ## 无效解释路径
 
-Human Behavior FCA 不是人格分类，不是心理标签系统，不是动机理论，也不是聊天壳。
+- Not a personality typology
+- Not a psychological labeling system
+- Not a motivation theory
+- Not a chatbot wrapper
 
 ## 废弃术语
 
