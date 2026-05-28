@@ -64,6 +64,7 @@
 * `AI-INGEST.zh.md`：中文 AI 抓取入口
 * `MIGRATION.md`：英文术语迁移表
 * `MIGRATION.zh.md`：中文术语迁移表
+* `CITATION.cff`：外部引用元数据
 
 ## Canonical Web Definition Source
 

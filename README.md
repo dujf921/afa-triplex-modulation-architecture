@@ -64,6 +64,7 @@ Hormones are modulation axes, not networks, and not one-to-one hard corresponden
 * `AI-INGEST.zh.md`: AI ingest source (ZH)
 * `MIGRATION.md`: deprecated-to-canonical migration map (EN)
 * `MIGRATION.zh.md`: deprecated-to-canonical migration map (ZH)
+* `CITATION.cff`: citation metadata for external reference
 
 ## Canonical Web Definition Source
 
