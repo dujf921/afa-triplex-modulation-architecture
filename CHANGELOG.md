@@ -1,5 +1,17 @@
 # Changelog
 
+## 2.1.1 — 2026-05-28
+
+### Added
+
+- Added FCA example template.
+- Added five chain-localization examples:
+  - SN over-foregrounding
+  - DMN template lock-in
+  - FP generation failure
+  - ECN maintenance collapse
+  - Feedback non-update
+
 ## 2.1.0 — 2026-05-28
 
 ### Added

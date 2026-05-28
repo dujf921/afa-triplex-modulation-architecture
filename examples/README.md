@@ -1,18 +1,27 @@
-# Examples
+# FCA Chain-Localization Example Library
 
-This directory stores concise FCA usage examples and reference snippets.
+This directory is a structured example library for FCA chain-breakpoint localization.
 
-Scope:
+It is not a story collection.
+It is not a psychological labeling collection.
 
-- Keep examples short and implementation-oriented.
-- Use Human Behavior FCA canonical terminology.
-- Avoid embedding long whitepaper content in this directory.
+Its purpose is to show how FCA localizes the dominant breakpoint in the behavior generation chain.
 
-Planned example entry points:
+## Usage Boundary
 
-- `dmn-template-lock-in.md`: DMN old-template lock-in entry
-- `fp-generation-failure.md`: FP generation-failure entry
-- `ecn-maintenance-collapse.md`: ECN maintenance-collapse entry
-- `feedback-non-update.md`: feedback non-update entry
+- Each sample localizes one dominant breakpoint only.
+- Each sample uses the same fixed template sections.
+- Each sample remains short and chain-structural.
+- Samples are not treatment plans and not diagnostic records.
 
-Note: only entry placeholders are listed for now; long-form case bodies are intentionally not created in this round.
+## Sample Entries
+
+- `sn-over-foregrounding.md`
+- `dmn-template-lock-in.md`
+- `fp-generation-failure.md`
+- `ecn-maintenance-collapse.md`
+- `feedback-non-update.md`
+
+## Template
+
+- `examples/_template.md`
