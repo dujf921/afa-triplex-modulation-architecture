@@ -65,6 +65,11 @@
 * `MIGRATION.md`：英文术语迁移表
 * `MIGRATION.zh.md`：中文术语迁移表
 * `CITATION.cff`：外部引用元数据
+* `definitions/glossary.md`：英文标准术语表
+* `definitions/glossary.zh.md`：中文标准术语表
+* `VERSION.md`：当前版本标记
+* `CHANGELOG.md`：版本与结构更新记录
+* `examples/README.md`：案例入口索引说明
 
 ## Canonical Web Definition Source
 

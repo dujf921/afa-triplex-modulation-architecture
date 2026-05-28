@@ -65,6 +65,11 @@ Hormones are modulation axes, not networks, and not one-to-one hard corresponden
 * `MIGRATION.md`: deprecated-to-canonical migration map (EN)
 * `MIGRATION.zh.md`: deprecated-to-canonical migration map (ZH)
 * `CITATION.cff`: citation metadata for external reference
+* `definitions/glossary.md`: canonical glossary table (EN)
+* `definitions/glossary.zh.md`: canonical glossary table (ZH)
+* `VERSION.md`: current repository version marker
+* `CHANGELOG.md`: release and structure change history
+* `examples/README.md`: examples index and entry notes
 
 ## Canonical Web Definition Source
 

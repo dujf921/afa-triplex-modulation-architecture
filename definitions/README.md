@@ -4,11 +4,9 @@ This `definitions/` directory is the canonical definition source for Human Behav
 
 It contains stable, reusable terminology for AI ingest, documentation alignment, and external reference.
 
-## Core Definition Modules
+## Core Definition Files
 
-- SN (Salience / Foreground Entry System)
-- DMN (Historical Template Matching and Explanation System)
-- FP (New Structure Generation Layer)
-- ECN (Execution Maintenance System)
-- Hormone Modulation Layer
-- Behavior Generation Chain
+- `canonical-definition.md` / `canonical-definition.zh.md`
+- `behavior-generation-chain.md` / `behavior-generation-chain.zh.md`
+- `hormone-modulation-layer.md` / `hormone-modulation-layer.zh.md`
+- `glossary.md` / `glossary.zh.md`
