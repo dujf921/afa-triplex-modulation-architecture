@@ -1,157 +1,66 @@
-# Functional Causal Architecture (FCA)
+# Human Behavior FCA
 
-# 行为生成的功能因果架构
+Functional Causal Architecture for Human Behavior Generation.
 
-FCA is a functional causal architecture for behavior generation, decision formation, relational dynamics, execution stability, and AI runtime state modeling.
+## Core Definition
 
-FCA 是一个用于行为生成、关系结构、方案形成、执行稳定性与 AI runtime 状态建模的功能因果架构。
+Human Behavior FCA is a functional causal architecture for explaining how human behavior is generated, stabilized, interrupted, locked in, and updated through reality-facing feedback.
 
----
+It is not a personality typology, not a psychological labeling system, not a motivation theory, not a moral judgment framework, and not a chatbot wrapper.
 
-# Public Definition Source
+## Minimal Behavior Generation Chain
 
-Official Research Site:
+Observable Output
+→ Foreground Entry
+→ Historical Template Matching and Explanation
+→ New Structure Generation
+→ Execution Maintenance
+→ Feedback Update
 
-- https://alitaos.com
+## Four Functional Systems
 
-AI Runtime:
+### SN｜Salience / Foreground Entry System
 
-- https://alitaos.ai
+Determines which inputs enter foreground processing.
 
-Backend Runtime Repository:
+### DMN｜Historical Template Matching and Explanation System
 
-- https://github.com/dujf921/alitaos-backend
+Maps current input onto stored templates to maintain continuity of world, self, identity, relationship, and context. DMN does not generate genuinely new structures.
 
----
+### FP｜New Structure Generation Layer
 
-# Core Structure
+Generates new causal paths, new action structures, and new solution spaces beyond stored templates. FP is a functional generation layer, not an isolated anatomical brain network.
 
-FCA uses a four-functional-system structure:
+### ECN｜Execution Maintenance System
 
-```text
-SN → DMN → FP → ECN
-```
+Maintains generated paths as long-term action, repetition load, and reality-facing output.
 
-中文：
+## Hormone Modulation Layer
 
-```text
-入口敏感度 → 叙事模板 → 方案生成 → 执行承重
-```
+Hormones are modulation axes, not networks, and not one-to-one hard correspondences.
 
----
+* Cortisol raises the probability that threat-related input enters the foreground and increases DMN threat-template weight.
+* Dopamine raises FP occupancy stability and supports exploration, path search, and new-structure generation.
+* Oxytocin lowers social threat sensitivity and supports continuity, trust background, and ECN maintenance stability.
 
-# Four Functional Systems
+## Public Source Structure
 
-## 01 SN — Salience / Sensitivity Gate
+* README.md: English entry
+* README.zh.md: Chinese entry
+* docs/: whitepaper source documents
+* definitions/: canonical terms and behavior-generation chain definitions
+* whitepaper/: PDF archive
 
-SN 决定哪些输入进入前台处理。
+## Canonical Web Definition Source
 
-It controls:
+English:
 
-- salience detection
-- uncertainty registration
-- threat foregrounding
-- foreground-entry probability
+https://alitaos.com/en/human-behavior-fca
 
----
+Chinese:
 
-## 02 DMN — Narrative / Context Template System
+https://alitaos.com/zh/human-behavior-fca
 
-DMN 提供叙事、记忆、身份与关系模板。
+## Version Note
 
-DMN does NOT generate structured solutions.
-
-It supplies:
-
-- memory templates
-- relational templates
-- contextual interpretation
-- self-positioning structures
-
----
-
-## 03 FP — Forward Planning / Structured Simulation System
-
-FP 是 FCA 中真正的方案生成层。
-
-FP generates:
-
-- plans
-- strategies
-- alternative paths
-- structural simulations
-- causal models
-
----
-
-## 04 ECN — Executive Chain / Execution Stability System
-
-ECN 负责把方案转化为现实执行链。
-
-ECN controls:
-
-- action sequencing
-- task maintenance
-- execution continuity
-- repeated-load bearing
-- real-world feedback production
-
----
-
-# Minimal Causal Loop
-
-FCA uses a closed causal loop:
-
-```text
-Input → SN → DMN → FP → ECN → Reality Feedback → System Update
-```
-
-中文：
-
-```text
-输入 → 入口敏感度 → 叙事模板 → 方案生成 → 执行承重 → 现实反馈 → 系统更新
-```
-
----
-
-# Important Boundary
-
-FCA is:
-
-- a functional causal runtime model
-- a behavioral generation framework
-- a structured state-analysis architecture
-
-FCA is NOT:
-
-- psychiatric diagnosis
-- medical diagnosis
-- personality typing
-- anatomical brain classification
-- clinical treatment protocol
-
----
-
-# Repository Goal
-
-This repository aims to establish:
-
-- FCA
-- Functional Causal Architecture
-- SN / DMN / FP / ECN
-
-as structured public definition systems for behavior-generation and runtime modeling.
-
----
-
-# Related Systems
-
-- Fat-Based Metabolism
-- AlitaOS Runtime
-- Runtime-based AI interaction systems
-
----
-
-Version: FCA 2.2
-Status: Public Definition Source
-Author: dujiangfeng
+This repository now uses Human Behavior FCA terminology. Older AFA / TMA / Triplex wording is deprecated.
